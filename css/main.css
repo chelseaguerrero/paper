@@ -1,0 +1,1109 @@
+/*General CSS Begin*/
+body {
+ background-color: #403836;
+ height: 6900px;
+}
+
+h1 {
+ font-family: 'Rock Salt', cursive;
+ font-size: 40px;
+ color: #353440;
+}
+
+h2 {
+ font-family: 'Rock Salt', cursive;
+ font-size: 20px;
+ color: #353440;
+}
+
+p {
+  font-family: 'Cousine';
+  color: #5f6653;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    text-align: center;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    text-align: center;
+}
+
+a:hover {
+    color: #B1BF9B;
+    text-decoration: none;
+    z-index: 1;
+    text-align: center;
+}
+
+/*General CSS End*/
+
+
+
+/*Welcome Page CSS Begin*/
+
+
+
+h1#welcome {
+  word-spacing: 0.3em;
+  line-height: 200px;
+  margin-top: -100px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+h2.welcome {
+ word-spacing: 0.3em;
+ line-height: 200px;
+ position: relative;
+ text-align: center;
+ top: 30%;
+ width: 100%;
+}
+
+div.hi {
+  border-radius: 100%;
+  border: 1px solid #383735;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background-color: #A68B7C;
+  line-height: 40px;
+}
+
+div.hi:hover {opacity:0.5;}
+
+img.hatcircle {
+  animation: hat 3s;
+  top: 175px;
+  left: 5%;
+  position: relative;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+img.hatcircle:hover {opacity:0.5;}
+
+img.boatcircle {
+  animation: boat 3s;
+  top: 175px;
+  left: 14%;
+  position: relative;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+img.boatcircle:hover {opacity:0.5;}
+
+img.traycircle {
+  animation: tray 3s;
+  top: 175px;
+  left: 23%;
+  position: relative;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+img.traycircle:hover {opacity:0.5;}
+
+@keyframes hat {
+ 0% {left: -100%}
+ 100% {left: 5%;}
+}
+
+@keyframes boat {
+ 0% {top: 1000px;}
+ 100% {top: 175px;}
+}
+
+@keyframes tray {
+ 0% {left: 100%;}
+ 100% {left: 23%;}
+}
+
+div#welcomeportion {
+ width: 11in;
+ height: 8.5in;
+ border: 1px solid black;
+background-image: url(../img/whitepaper2.png);
+background-repeat: repeat;
+margin: 60px auto;
+}
+
+/*Welcome Page CSS End*/
+
+
+
+/*Materials Page CSS Begin*/
+
+h1#matneed {
+  word-spacing: 0.3em;
+  position: relative;
+  text-align: center;
+  top: 0%;
+  width: 100%;
+}
+
+img.matcircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 1030px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.matcircle0:hover {opacity:0.5;}
+
+
+img.matcircle1 {
+  top: 30%;
+  left: 5%;
+  position: relative;
+  border-radius: 100%;
+}
+
+p.mattext {
+  left: 55%;
+  top: -35%;
+  width: 400px;
+  position: relative;
+}
+
+div#materialsportion {
+ width: 11in;
+ height: 8.5in;
+ border: 1px solid black;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+/*Materials Page CSS End*/
+
+
+
+/*Paper Hat Page CSS Begin*/
+h1#hat {
+  word-spacing: 0.3em;
+  position: relative;
+  text-align: center;
+  top: 0%;
+  width: 100%;
+}
+
+img.hatcircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 1800px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.hatcircle0:hover {opacity:0.5;}
+
+img.hcontrol1 {
+ top: -20px;
+ left: 10%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.hcontrol2 {
+ top: -250px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.hcontrol3 {
+ top: -450px;
+ left: 10%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+img.hsteps1 {
+ top: -20px;
+ left: -14%;
+ position:relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.hsteps2 {
+ top: -20px;
+ left: -38%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.hsteps3 {
+ top: -20px;
+ left: -62%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+img.hsteps4 {
+ top: -250px;
+ left: 41%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.hsteps5 {
+ top: -250px;
+ left: 17%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.hsteps6 {
+ top: -250px;
+ left: -7%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+img.hsteps7 {
+ top: -450px;
+ left: -14%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.hsteps8 {
+ top: -450px;
+ left: -38%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+p.hc1 {
+ left: 50%;
+ top: -27%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc1:hover {font-weight: bold;}
+
+p.hc2 {
+ left: 50%;
+ top: -29%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc2:hover {font-weight: bold;}
+
+p.hbullet {
+  left: 51%;
+  top: -31%;
+  width: 500px;
+  position: relative;
+}
+
+p.hbullet:hover {font-weight: bold;}
+
+p.hc3 {
+ left: 50%;
+ top: -33%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc3:hover {font-weight: bold;}
+
+p.hc4 {
+ left: 14%;
+ top: -52%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc4:hover {font-weight: bold;}
+
+p.hc5 {
+ left: 14%;
+ top: -54%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc5:hover {font-weight: bold;}
+
+p.hc6 {
+ left: 14%;
+ top: -56%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc6:hover {font-weight: bold;}
+
+p.hc7 {
+ left: 50%;
+ top: -75%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc7:hover {font-weight: bold;}
+
+p.hc8 {
+ left: 50%;
+ top: -77%;
+ width: 500px;
+ position: relative;
+}
+
+p.hc8:hover {font-weight: bold;}
+
+div#hatportion {
+ width: 11in;
+ height: 8.5in;
+ border: 1px solid black;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+
+/*Paper Hat Page CSS End*/
+
+
+
+/*Paper Boat Page CSS Begin*/
+h1#boat {
+ word-spacing: 0.3em;
+ position: relative;
+ text-align: center;
+ top: 2%;
+ width: 100%;
+}
+
+img.boatcircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 2600px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.boatcircle0:hover {opacity:0.5;}
+
+img.bcontrol1 {
+ top: 10px;
+ left: 10%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.bcontrol2 {
+ top: -200px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.bcontrol3 {
+ top: -360px;
+ left: 10%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.bcontrol4 {
+ top: -500px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.bcontrol5 {
+ top: -620px;
+ left: 10%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.bsteps1 {
+ top: 10px;
+ left: -14%;
+ position:relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.bsteps2 {
+ top: 10px;
+ left: -403px;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.bsteps3 {
+ top: -200px;
+ left: 41%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.bsteps4 {
+ top: -200px;
+ left: 17%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.bsteps5 {
+ top: -360px;
+ left: -14%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.bsteps6 {
+ top: -360px;
+ left: -38%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.bsteps7 {
+ top: -500px;
+ left: 41%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.bsteps8 {
+ top: -500px;
+ left: 17%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.bsteps9 {
+ top: -620px;
+ left: -14%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.bsteps10 {
+ top: -620px;
+ left: -38%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+p.bc1 {
+ left: 50%;
+ top: -14%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc1:hover {font-weight: bold;}
+
+p.bbullet {
+ left: 51%;
+ top: -15%;
+ width: 500px;
+ position: relative;
+}
+
+p.bbullet:hover {font-weight: bold;}
+
+p.bc2 {
+ left: 50%;
+ top: -16%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc2:hover {font-weight: bold;}
+
+p.bc3 {
+ left: 14%;
+ top: -28%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc3:hover {font-weight: bold;}
+
+p.bc4 {
+ left: 14%;
+ top: -29%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc4:hover {font-weight: bold;}
+
+p.bc5 {
+ left: 50%;
+ top: -40%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc5:hover {font-weight: bold;}
+
+p.bc6 {
+ left: 50%;
+ top: -41%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc6:hover {font-weight: bold;}
+
+p.bc7 {
+ left: 14%;
+ top: -50%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc7:hover {font-weight: bold;}
+
+p.bc8 {
+ left: 14%;
+ top: -51%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc8:hover {font-weight: bold;}
+
+p.bc9 {
+ left: 50%;
+ top: -58%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc9:hover {font-weight: bold;}
+
+p.bc10 {
+ left: 50%;
+ top: -59%;
+ width: 500px;
+ position: relative;
+}
+
+p.bc10:hover {font-weight: bold;}
+
+div#boatportion {
+ width: 11in;
+ height: 14in;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+/*Paper Boat Page CSS End*/
+
+
+
+/*Paper Tray Page CSS Begin*/
+h1#tray {
+ word-spacing: 0.3em;
+ position: relative;
+ text-align: center;
+ top: 0%;
+ width: 100%;
+}
+
+img.traycircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 4000px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.traycircle0:hover {opacity:0.5;}
+
+img.tcontrol1 {
+ top: -20px;
+ left: 10%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.tcontrol2 {
+ top: -180px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.tcontrol3 {
+ top: -830px;
+ left: 10%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 4;
+}
+
+img.tsteps1 {
+ top: -20px;
+ left: -14%;
+ position:relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.tsteps2 {
+ top: -20px;
+ left: -38%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.tsteps3 {
+ top: -20px;
+ left: -62%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+img.tsteps4 {
+ top: -180px;
+ left: 41%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+div.tsteps5 {
+ background-image: url(../img/ai/repeat.png);
+ top: -435px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+ background-position: -500px;
+ animation: repeat 5s steps(4, end) infinite;
+}
+
+@keyframes repeat {
+ from {background-position: 0px;
+width: 250px;
+height: 250px;
+ }
+ to {background-position: -1000px;
+width: 250px;
+height: 250px;
+ }
+}
+
+img.tsteps6 {
+ top: -685px;
+ left: 65%;
+ position: relative;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+img.tsteps7 {
+ top: -830px;
+ left: -14%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+img.tsteps9 {
+ top: -830px;
+ left: -38%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 2;
+}
+
+img.tsteps10 {
+ top: -830px;
+ left: -62%;
+ position: relative;
+ margin: 0px auto;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+ z-index: 3;
+}
+
+p.tc1 {
+ left: 50%;
+ top: -22%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc1:hover {font-weight: bold;}
+
+p.tc2 {
+ left: 50%;
+ top: -24%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc2:hover {font-weight: bold;}
+
+p.tc3 {
+ left: 50%;
+ top: -26%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc3:hover {font-weight: bold;}
+
+p.tc4 {
+ left: 14%;
+ top: -92%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc4:hover {font-weight: bold;}
+
+p.tc5 {
+ left: 14%;
+ top: -94%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc5:hover {font-weight: bold;}
+
+p.tc6 {
+ left: 14%;
+ top: -96%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc6:hover {font-weight: bold;}
+
+p.tc7 {
+ left: 50%;
+ top: -111%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc7:hover {font-weight: bold;}
+
+p.tc8 {
+ left: 50%;
+ top: -113%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc8:hover {font-weight: bold;}
+
+p.tc9 {
+ left: 50%;
+ top: -115%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc9:hover {font-weight: bold;}
+
+p.tc10 {
+ left: 50%;
+ top: -117%;
+ width: 500px;
+ position: relative;
+}
+
+p.tc10:hover {font-weight: bold;}
+
+div#trayportion {
+ width: 11in;
+ height: 9.5in;
+ border: 1px solid black;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+/*Paper Tray Page CSS End*/
+
+
+
+/*Hooray Page CSS Begin*/
+h1#hooray {
+ word-spacing: 0.3em;
+ position: relative;
+ text-align: center;
+ top: 0%;
+ width: 100%;
+}
+
+img.hrcircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 1700px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.hrcircle0:hover {opacity:0.5;}
+
+div.hoorayanimate {
+  background-image: url(../img/ai/hooray.png);
+  top: 0px;
+  left: 0%;
+  position: relative;
+  margin: 0px auto;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+  background-position: -500px;
+  animation: hooray 1s steps(3, end) infinite;
+}
+
+@keyframes hooray {
+ from {background-position: 0px;
+width: 500px;
+height: 500px;
+ }
+ to {background-position: -1500px;
+width: 500px;
+height: 500px;
+ }
+}
+
+p.hr1 {
+ text-align: center;
+ position: relative;
+}
+
+div#hoorayportion {
+ width: 11in;
+ height: 8.5in;
+ border: 1px solid black;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+/*Hooray Page CSS End*/
+
+
+
+/*About Page CSS Begin*/
+h1#about {
+ word-spacing: 0.3em;
+ position: relative;
+ text-align: center;
+ top: 0%;
+ width: 100%;
+}
+
+img.abtcircle0 {
+  border: 1px solid #383735;
+  position: absolute;
+  top: 5700px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+img.abtcircle0:hover {opacity:0.5;}
+
+p.abt1 {
+ left: 15%;
+ top: 0%;
+ width: 750px;
+ position: relative;
+}
+
+h2.abt {
+ word-spacing: 0.3em;
+ position: relative;
+ text-align: center;
+ top: 0%;
+ width: 100%;
+}
+
+p.abt2 {
+ left: 16%;
+ top: 0%;
+ width: 725px;
+ position: relative;
+}
+
+a.abt2:link {
+  color: #B1BF9B;
+}
+
+a.abt2:visited {
+  color: #B1BF9B;
+}
+
+a.abt2:hover {
+  color: #F2F0D8;
+}
+
+div#aboutportion {
+ width: 11in;
+ height: 8.5in;
+ border: 1px solid black;
+ background-image: url(../img/whitepaper2.png);
+ background-repeat: repeat;
+ margin: 80px auto;
+}
+/*About Page CSS End*/
+
+
+
+/*Footer CSS Begin*/
+p.footer {
+ text-align: center;
+}
+/*Footer CSS End*/
